@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Registro</title>
+</head>
+<body>
+  <h1>Crear contacto</h1>
+  <form action="procesar_registro.php" method="post">
+    <fieldset>
+      <legend>Contacto</legend>
+      <label for="nombre">Username:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="nombre de usuario" required>
+      <br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="ejemplo@dominio.com" required>
+      <br><br>
+      <label for="asunto">Asunto:</label>
+<textarea id="asunto" name="asunto" rows="2" cols="25" placeholder="Escribe asunto aquí..."></textarea>
+<br>
+      <label for="comentario">Comentario:</label>
+<textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Escribe tu comentario aquí..."></textarea>
+      <br>
+      <br>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Borrar">
+    </fieldset>
+  </form>
+</body>
+</html>
