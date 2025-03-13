@@ -3,10 +3,8 @@
     height: 500px;
     border: 15px solid blue;
     border-radius: 50%; 
-    position: relative;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+    position: relative; left: 200px;top: 50px;
+   
 }
 .puf{
     background-color: #04AA6D;
@@ -14,13 +12,19 @@
     color:blue;
     padding: 15px 32px;
     cursor: pointer
+    position: absolute;
+    left: 37%;
     
-
     }
 .relativo{
-    position: absolute;
+    position: relative; left: 50px;top: 110px;
     border: 15px solid black;
-    width: 200px;
-    height: 200px;
-    
+    width: 100px;
+    height: 100px;
+}
+.cosa{
+    position: absolute; left: 310px;top: 110px;
+    border: 15px solid black;
+    width: 100px;
+    height: 100px;
 }
