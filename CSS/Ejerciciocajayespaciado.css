@@ -1,0 +1,23 @@
+.amarillo{
+    width: 200px;
+    height: 200px;
+    background-color: yellow; 
+    margin-top: 10px ; 
+    margin-bottom: 10px;
+    padding-right: 250px;
+    
+}
+.verde{
+    width: 200px;
+    height: 200px;
+    background-color: green; 
+    margin: 10px 0 30px 20px;
+    padding: 40px 0 20px 80px;
+}
+.rojo{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-left: 50px;
+    padding-right: 120px;
+}
