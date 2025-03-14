@@ -1,0 +1,48 @@
+body{
+    background-color: #6bbfb4;
+}
+div{
+    width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5% 5%;
+}
+section{
+    /* justify-content: right; */
+    display: flex;
+    /* padding-right: 250px; */
+    /* flex-direction: column; */
+    border-radius: 50%;
+    margin-left: 40px;
+    margin: 25px;
+    
+}
+
+.Img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+
+}
+.art{
+    /* justify-content: right; */
+    place-items: right;
+    display: flex;
+    /* margin-top: 50px; */
+    flex-direction: column;
+    margin-left: 15px;
+}
+.grupo{
+    text-decoration-color: #383837;
+    font-weight: 1000;
+    display: flex;
+
+}
+.cancion{
+    display: flex;
+    margin-top: 0px;
+}
