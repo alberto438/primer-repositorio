@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+  }
+
+.container{
+  width: 150px;
+  height: 150px;
+  background-color: #000000;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-property: background-color, width, height, transform;
+  transition-duration: 1s, 0.5s, 0.5s, 0.5s;
+  transition-timing-function: linear, linear, linear, linear;
+  transition-delay: 0s, 1s, 1s, 1s;
+}
+   
+  .container:hover {
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    transform: rotate(45deg);
+  }
+ 
+     .h1{
+        display: flex;
+        transition-property: transform;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+        transition-delay: 2s; 
+     }
+    .h1:hover{
+        transform: translate(100px);
+    } 
+    .container3{
+        width: 150px;
+        height: 150px;
+        background-color: #1a0b6e;
+        font-size: 1.2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition-property:  transform;
+        transition-duration:  0.5s;
+        transition-timing-function: linear;
+        transition-delay: 1s;
+      }
+      .container:hover ~ .container3 {
+        transform: rotate(360deg) translate(200px);
+      }
+      #button {
+        background-color: #3498db;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        transition: background-color 0.5s ease, transform 0.5s ease-in-out;
+      }
+      #button:hover {
+        background-color: #06a74f;
+        transform: scale(2.2);
+      }
+    .ejercicio5{
+      display: flex;
+      align-items: center;
+      justify-items: center;
+      flex-direction: column;
+      position: relative;
+      width: 200px;
+      height: 264px;
+    }
+      
+      .card{
+        padding: 5px;
+        box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+        background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+        display:flex ;
+        align-items:flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        border-radius: 15px;
+        
+      }
+    
+      #comprar{
+        
+        background-color: #100230;
+        color: burlywood;
+        padding: 10px 20px;
+        border: none;
+        transition: background-color 0.5s ease, transform 0.5s ease-in-out;
+      }
+      #comprar:hover {
+        background-color: goldenrod;
+        transform: scale(1.5);
+      }
+      #brazalete{
+        background-image: url("/Animaciones/brazalete.jpg");
+        background-size: cover;
+        width: 190px;
+        height: 254px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: background-color 0.5s ease, transform 0.5s ease-in-out;
+      }
+      #brazalete:hover{
+        transform: scale(1.5);
+      }
+      .producto:hover ~ .piedeproducto{
+        background-color: #1a0b6e;
+        
+      }
+      
+      .producto{
+        width: 190px;
+        height: 30px;
+        background-color: goldenrod;
+        border-radius: 15px 15px 0 0;
+        display:flex ;
+        align-items:center;
+        justify-content: center;
+      }
+      
+      .nombre{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        font-weight: bold;  
+        display: flex;
+      }
+      .piedeproducto{
+        width: 190px;
+        height: 30px;
+        background-color: #75797e;
+        border-radius: 0 0 15px 15px;
+        display:flex ;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid goldenrod;
+      }
+        .descripcion{
+          font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 10px;
+        font-weight: bold;  
+      }
