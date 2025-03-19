@@ -45,8 +45,14 @@
     .caja1{
         display: none;
     }
+    .prueba1{
+        display: none;
+    }
+    .prueba2{
+        display: none;
+    }
 }
-@media only screen and (min-width: 600px) and (max-width: 900px) {
+@media only screen and (min-width: 601px) and (max-width: 900px) {
 
 .caja2{
     display: flex;
@@ -81,7 +87,7 @@
 .prueba2{
     text-align: center;
     margin: 0;
-  padding: 0;
+    padding: 0;
 }
 .caja1{
     display: none;
@@ -89,8 +95,14 @@
 .caja3{
     display: none;
 }
+.prueba1{
+    display: none;
 }
-@media only screen and (min-width: 900px) {
+.prueba3{
+    display: none;
+}
+}
+@media only screen and (min-width: 901px) {
     
   
     .caja1{
@@ -122,15 +134,21 @@
         padding: 0;
         text-align: center;
     }
-    .prueba1{
+    .prueba3{
         text-align: center;
         margin: 0;
-      padding: 0;
+        padding: 0;
     }
     .caja2{
         display: none;
     }
     .caja3{
+        display: none;
+    }
+    .prueba1{
+        display: none;
+    }
+    .prueba2{
         display: none;
     }
 }
